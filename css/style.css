@@ -1,0 +1,66 @@
+body{
+	background: #FFF;
+	font-family: ;
+}
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+header{
+	position: fixed;
+	z-index: 1;
+	background: #FFF;
+}
+
+header img{
+	height: 100px;
+	width: 100px;
+	display: inline;
+}
+
+nav{
+	display: inline;
+	position: relative;
+	float: right;
+	padding-top: 50px;
+}
+
+nav ul{
+	display: inline;
+}
+
+nav li{
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	margin-right: 30px;
+}
+
+div#main{
+	height: 600px;
+	margin: 0 auto;
+	
+}
+
+div#title{
+	padding-top: 200px;
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+}
+
+div#offer{
+	background-color: #8bd4d6;
+}
+
+div#text{
+	padding-top: 50px;
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
+}
+
