@@ -1,6 +1,6 @@
 body{
 	background: #FFF;
-	font-family: ;
+	font-family: quicksand;
 }
 
 .wrapper{
@@ -14,6 +14,7 @@ header{
 	position: fixed;
 	z-index: 1;
 	background: #FFF;
+	width: 100%;
 }
 
 header img{
@@ -31,6 +32,9 @@ nav{
 
 nav ul{
 	display: inline;
+	font-family: quicksand;
+	font-weight: bold;
+
 }
 
 nav li{
@@ -43,6 +47,10 @@ nav li{
 div#main{
 	height: 600px;
 	margin: 0 auto;
+	background-image: url("../img/campus.jpg");
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
 	
 }
 
@@ -54,7 +62,8 @@ div#title{
 }
 
 div#offer{
-	background-color: #8bd4d6;
+	background-color: #A4DBC5;
+	height: 250px;
 }
 
 div#text{
@@ -62,5 +71,71 @@ div#text{
 	margin: 0 auto;
 	width: 600px;
 	text-align: center;
+}
+
+div#icons{
+	height: 300px;
+}
+
+div.columns{
+	float:left;
+	width: 33%;
+	display: inline-block;
+	text-align: center;	
+	
+}
+
+div.columns img{
+	width: 150px;
+
+}
+
+
+
+div#text-wrap{
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 26px;
+}
+
+div#text-wrap a{
+	text-decoration: none;
+}
+
+div#stories{
+	background: url("../img/window.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	display: block;
+}
+
+div#stories h2{
+	
+	color: #FFF;
+}
+
+div#courses{
+	width: 66%;
+	position: relative;
+	float: left;
+	display: inline;
+}
+
+div#course-column{
+	width: 45%;
+	position: relative;
+	float: left;
+	display: inline;
+}
+
+div#twitter{
+	width: 33%;
+	position: relative;
+	display: inline;
+	float: right;
 }
 
