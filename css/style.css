@@ -77,6 +77,12 @@ div#icons{
 	height: 300px;
 }
 
+div#two-column{
+	background-color: #A4DBC5;
+	position: relative;
+	overflow:hidden;
+}
+
 div.columns{
 	float:left;
 	width: 33%;
@@ -90,6 +96,15 @@ div.columns img{
 
 }
 
+
+div#quote{
+	height: 300px;
+}
+
+div#quote a{
+	text-decoration: none;
+	color: #000000;
+}
 
 
 div#text-wrap{
@@ -119,23 +134,84 @@ div#stories h2{
 }
 
 div#courses{
+	background-color: #A4DBC5;
 	width: 66%;
 	position: relative;
 	float: left;
 	display: inline;
 }
 
-div#course-column{
-	width: 45%;
+div.course-column{
+	width: 42%;
 	position: relative;
 	float: left;
 	display: inline;
+	padding: 8px;
+}
+
+
+div.wrapper2{
+width: 600px;
+	margin: 0 auto;
+	position: relative;
 }
 
 div#twitter{
-	width: 33%;
+	width: 30%;
 	position: relative;
 	display: inline;
 	float: right;
+	padding-right:10px;
+	top:85px;
+
 }
+
+div#creche{
+	background: url("../img/creche.jpg");
+	height: 300px;
+	
+}
+
+div#creche-text{
+	color: #FFF;
+	width: 400px;
+	
+	overflow: hidden;
+}
+
+div#creche-text a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+div#support{
+	background-color: #eae4de;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.column-left{
+	width: 45%;
+	display: inline;
+	float: left;
+	margin-right: 8%;
+
+
+}
+
+.column-right{
+	width: 45%;
+	display: inline;
+	float: left;
+
+	
+}
+
+.column-left a{
+	text-decoration: none;
+	color: #000000;
+}
+
+
 
